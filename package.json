@@ -1,0 +1,17 @@
+{
+  "name": "patronesdisenotypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "template": "tsc && node Template/index.js",
+    "str:composite": "tsc -p Estructural/Composite/ && node Estructural/Composite/index.js",
+    "str:decorator": "tsc -p Estructural/Decorator/ && node Estructural/Decorator/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snake-camel": "^1.0.8",
+    "typescript": "^4.2.4"
+  }
+}

@@ -1,0 +1,1 @@
+Queremos obtener la cantidad de empleado que tenemos por area. Cuando estamos en una empresa, por lo general tenemos un organigrama de empleados. Podemos ver imagen adjunta de lo que queremos.

@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Empleado_1 = require("./domain/Empleado");
+var EmpleadoComposite_1 = require("./domain/EmpleadoComposite");
+var luis = new Empleado_1.Empleado('Luis', 'Desarrollo');
+var marisol = new Empleado_1.Empleado('Marisol', 'Desarrollo');
+var daniel = new Empleado_1.Empleado('Daniel', 'Marketing');
+var dayana = new EmpleadoComposite_1.EmpleadoComposite('Dayana', 'Desarrollo');
+var oswaldo = new EmpleadoComposite_1.EmpleadoComposite('Oswaldo', 'Presidencia');
+dayana.addEmpleado(luis);
+dayana.addEmpleado(marisol);
+oswaldo.addEmpleado(daniel);
+oswaldo.addEmpleado(dayana);
+console.log("Cantidad de empleados en presidencia", oswaldo.getCantidad());
+console.log("Cantidad de empleados en desarrollo", dayana.getCantidad());
+console.log("Cantidad de empleados en marketing", daniel.getCantidad());
