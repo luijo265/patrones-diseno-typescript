@@ -7,7 +7,8 @@
     "template": "tsc && node Template/index.js",
     "str:composite": "tsc -p Estructural/Composite/ && node Estructural/Composite/index.js",
     "str:decorator": "tsc -p Estructural/Decorator/ && node Estructural/Decorator/index.js",
-    "str:facade": "tsc -p Estructural/Facade/ && node Estructural/Facade/index.js"
+    "str:facade": "tsc -p Estructural/Facade/ && node Estructural/Facade/index.js",
+    "str:fly": "tsc -p Estructural/Flyweight/ && node Estructural/Flyweight/index.js"
   },
   "author": "",
   "license": "ISC",
