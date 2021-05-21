@@ -1,0 +1,3 @@
+Se tiene un control de reposos, que depende de la cantidad minima de días autorizadas. 
+Sucede que si no cumple el mínimo de días, se guarda y se puede usar cuando soliciten otro reposo similar.
+Para este ejercicio ya obtenemos y guardamos ese reposo que no cumple la regla, pero se requiere que cuando se llame estas funciones, registre en un historico que asesor lo hizo y desde donde, ya que de por sí la información esta disponible cuando se obtiene y guarda el reposo.
