@@ -1,0 +1,2 @@
+Se tiene un conjunto de empleados en una empresa que conforman un organigrama.
+La idea es recorrer cada uno de los empleados de dicha empresa, sin escaparse ningunno en su comprobacion. Pero es engorroso porque se debe recorrer la estructura ya formada.

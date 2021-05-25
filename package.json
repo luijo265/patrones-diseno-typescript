@@ -9,7 +9,8 @@
     "str:decorator": "tsc -p Estructural/Decorator/ && node Estructural/Decorator/index.js",
     "str:facade": "tsc -p Estructural/Facade/ && node Estructural/Facade/index.js",
     "str:fly": "tsc -p Estructural/Flyweight/ && node Estructural/Flyweight/index.js",
-    "str:proxy": "tsc -p Estructural/Proxy/ && node Estructural/Proxy/index.js"
+    "str:proxy": "tsc -p Estructural/Proxy/ && node Estructural/Proxy/index.js",
+    "cmp:iterator": "tsc -p Comportamiento/Iterator/ && node Comportamiento/Iterator/index.js"
   },
   "author": "",
   "license": "ISC",
