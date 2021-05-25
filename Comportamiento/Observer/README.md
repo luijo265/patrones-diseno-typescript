@@ -1,0 +1,1 @@
+Se quiere que las traducciones cambien si el idioma cambia.

@@ -11,7 +11,8 @@
     "str:fly": "tsc -p Estructural/Flyweight/ && node Estructural/Flyweight/index.js",
     "str:proxy": "tsc -p Estructural/Proxy/ && node Estructural/Proxy/index.js",
     "cmp:iterator": "tsc -p Comportamiento/Iterator/ && node Comportamiento/Iterator/index.js",
-    "cmp:command": "tsc -p Comportamiento/Command/ && node Comportamiento/Command/index.js"
+    "cmp:command": "tsc -p Comportamiento/Command/ && node Comportamiento/Command/index.js",
+    "cmp:observer": "tsc -p Comportamiento/Observer/ && node Comportamiento/Observer/index.js"
   },
   "author": "",
   "license": "ISC",
