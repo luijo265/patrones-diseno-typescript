@@ -1,0 +1,1 @@
+Se tiene una lista de usuarios con ciertas caracteristicas y se quiere enviar notificaciones por diferentes criterios. La idea es que pueda ser invocado manualmente o por tarea programada y realice las verificaciones que sean necesarios, para enviar las notificaciones según las reglas que se definan para ello.
