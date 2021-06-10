@@ -14,11 +14,13 @@
     "cmp:command": "tsc -p Comportamiento/Command/ && node Comportamiento/Command/index.js",
     "cmp:observer": "tsc -p Comportamiento/Observer/ && node Comportamiento/Observer/index.js",
     "cmp:templete": "tsc -p Comportamiento/Templete/ && node Comportamiento/Templete/index.js",
-    "cmp:strategy": "tsc -p Comportamiento/Strategy/ && node Comportamiento/Strategy/index.js"
+    "cmp:strategy": "tsc -p Comportamiento/Strategy/ && node Comportamiento/Strategy/index.js",
+    "cmp:chain": "tsc -p Comportamiento/ChainOfResponsability/ && node Comportamiento/ChainOfResponsability/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.29.1",
     "snake-camel": "^1.0.8",
     "typescript": "^4.2.4"
   }
